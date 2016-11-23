@@ -27,3 +27,10 @@ class Tokener
 		return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5($this->key), base64_decode($encrypted), MCRYPT_MODE_CBC, md5(md5($this->key))), "\0");
 	}
 }
+
+
+$token = new Tokener(); 
+$encrypted = $token->encrypt(); 
+$decrypted = $token->decrypted($encrypted);
+
+echo 'Encrypt : '.$encrypted . ' Decrypted : ' . $decrypted .'';

@@ -1,3 +1,4 @@
+```sh
 Example :
 
 <?php
@@ -14,3 +15,5 @@ echo 'Encrypt : <strong>'.$encrypted . '</strong> Decrypted : <strong>' . $decry
 Encrypt : 8PXw9GQn0e2IbkAPJCbsQjRN6KuFc+Um5swfb+KVeDM= 
 
 Decrypted : www.yuhhu.net
+
+```
